@@ -1,12 +1,46 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+### 📄 For `clientside/README.md` (frontend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```markdown
+# Billing App Frontend
 
-## Expanding the ESLint configuration
+This is the frontend for the Billing App where users can add, edit, and delete products and view the invoice preview.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Product management (Add / Edit / Delete)
+- Invoice generation view
+- Sending data to backend for PDF generation
+- Clean UI using pure CSS
+
+## Technologies Used
+
+- React.js
+- Pure CSS (no Tailwind yet)
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shubrobarua007/billing_app_frontend.git
+cd billing_app_frontend
+npm install
+
+
+Start the React development server:
+
+npm run dev
+Make sure the backend server is running at the same time.
+
+clientside/
+├── src/
+│   ├── components/    # React components
+│   ├── pages/         # Pages if any
+│   ├── App.js         # Main App component
+│   └── index.js       # Entry point
+├── public/
+├── package.json       # Project dependencies
+
